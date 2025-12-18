@@ -8,7 +8,7 @@ from io import BytesIO
 # ================= 설정 구간 =================
 # 1. Django 서버 주소 (본인 환경에 맞게 수정)
 # 예: "http://192.168.0.15:8000/api/detect/"
-SERVER_URL = "http://127.0.0.1:8000/api/detect/"
+SERVER_URL = "http://byeongmin.pythonanywhere.com/api/detect/"
 
 # 2. 감지할 객체 번호 (COCO 데이터셋 기준)
 # 0: person, 1: bicycle, 2: car ... (필요한 것만 리스트에 추가)
